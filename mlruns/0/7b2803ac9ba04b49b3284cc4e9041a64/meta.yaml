@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/e_wor/OneDrive/Documents/McGill MMA/Enterprise Data
+  Science/Project II/Airbnb/mlruns/0/7b2803ac9ba04b49b3284cc4e9041a64/artifacts
+end_time: 1618006227330
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 7b2803ac9ba04b49b3284cc4e9041a64
+run_uuid: 7b2803ac9ba04b49b3284cc4e9041a64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1618006227265
+status: 4
+tags: []
+user_id: e_wor
