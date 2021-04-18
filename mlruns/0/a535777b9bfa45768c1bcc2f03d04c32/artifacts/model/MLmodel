@@ -1,0 +1,44 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env: conda.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.7.6
+  xgboost:
+    data: model.xgb
+    xgb_version: 1.3.3
+run_id: a535777b9bfa45768c1bcc2f03d04c32
+signature:
+  inputs: '[{"name": "host_response_rate", "type": "double"}, {"name": "host_total_listings_count",
+    "type": "double"}, {"name": "host_identity_verified", "type": "double"}, {"name":
+    "accommodates", "type": "double"}, {"name": "bedrooms", "type": "double"}, {"name":
+    "beds", "type": "double"}, {"name": "minimum_nights", "type": "double"}, {"name":
+    "availability_90", "type": "double"}, {"name": "availability_365", "type": "double"},
+    {"name": "number_of_reviews", "type": "double"}, {"name": "number_of_reviews_ltm",
+    "type": "double"}, {"name": "review_scores_accuracy", "type": "double"}, {"name":
+    "review_scores_cleanliness", "type": "double"}, {"name": "review_scores_checkin",
+    "type": "double"}, {"name": "review_scores_communication", "type": "double"},
+    {"name": "review_scores_location", "type": "double"}, {"name": "instant_bookable",
+    "type": "double"}, {"name": "reviews_per_month", "type": "double"}, {"name": "name_length",
+    "type": "double"}, {"name": "description_length", "type": "double"}, {"name":
+    "host_about_length", "type": "double"}, {"name": "verifications_length", "type":
+    "double"}, {"name": "amenities_length", "type": "double"}, {"name": "host_since_days",
+    "type": "double"}, {"name": "first_review_days", "type": "double"}, {"name": "last_review_days",
+    "type": "double"}, {"name": "num_bath", "type": "double"}, {"name": "total_sentiment",
+    "type": "double"}, {"name": "name_sentiment", "type": "double"}, {"name": "description_sentiment",
+    "type": "double"}, {"name": "neighborhood_sentiment", "type": "double"}, {"name":
+    "hostabout_sentiment", "type": "double"}, {"name": "tv_available", "type": "double"},
+    {"name": "coffee_machine_available", "type": "double"}, {"name": "washer and dryer_available",
+    "type": "double"}, {"name": "gym", "type": "double"}, {"name": "parking", "type":
+    "double"}, {"name": "long_term_stays_allowed", "type": "double"}, {"name": "private_entrance",
+    "type": "double"}, {"name": "microwave_available", "type": "double"}, {"name":
+    "host_response_time_indicator", "type": "double"}, {"name": "host_acceptance_rate_indicator",
+    "type": "double"}, {"name": "last_review_days_indicator", "type": "double"}, {"name":
+    "bedrooms_indicator", "type": "double"}, {"name": "beds_indicator", "type": "double"},
+    {"name": "host_response_time_a few days or more", "type": "double"}, {"name":
+    "host_response_time_within an hour", "type": "double"}, {"name": "neighbourhood_group_cleansed_Manhattan",
+    "type": "double"}, {"name": "name_bath_private bath", "type": "double"}, {"name":
+    "room_type_Entire home/apt", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+utc_time_created: '2021-04-13 10:17:30.972961'
