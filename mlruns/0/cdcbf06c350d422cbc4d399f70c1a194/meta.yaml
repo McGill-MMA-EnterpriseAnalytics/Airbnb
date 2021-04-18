@@ -1,5 +1,5 @@
 artifact_uri: file:///C:/Users/shiva/Documents/Airbnb/mlruns/0/cdcbf06c350d422cbc4d399f70c1a194/artifacts
-end_time: null
+end_time: 1618719525818
 entry_point_name: ''
 experiment_id: '0'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1618719111464
-status: 1
+status: 3
 tags: []
 user_id: e_wor
