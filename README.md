@@ -16,8 +16,8 @@ Additionally, the machine learning algorithms will provide insight into what fac
 The dataset that we have used is from: http://insideairbnb.com/get-the-data.html
 
 The team consists of:
-Eunice Worifah - Data Scientist
-Fandi Yi - Data Scientist
-Pascal Nguyen Tang - Product Manager
-Shivangi Soni - Data Analyst
-Vivek Saahil - Business Analyst
+Eunice Worifah - Data Scientist  
+Fandi Yi - Data Scientist  
+Pascal Nguyen Tang - Product Manager  
+Shivangi Soni - Data Analyst  
+Vivek Saahil - Business Analyst  
