@@ -38,6 +38,10 @@ Shivangi Soni - Data Analyst
 Vivek Saahil - Business Analyst  
 
 In this branch you can find the following files: 
-1) Final Netbook File - This file consists of all the pre-processing, data exploration, AUTO ML, feature engineering, regression models, ML flow and UI interface code.  
+1) Final Notebook File - This file consists of all the pre-processing, data exploration, AUTO ML, feature engineering, regression models, ML flow and UI interface code.  
 2) Gifs for UI - to show prototype of our UI
 3) Docker File - A docker file has been created and deposited in the repository. A requirements file (called requirements.txt) containing all the packages and adequate versions to run the models has been created. These documents are needed to run the Docker image on which instances of the model will be run.
+4) Databricks file for ML flow 
+5) Causal ML file for testing different hypothesis
+
+**This project was not in continuation to project from Enterprise 1 course as we decided to go with a new dataset. Hence, all the analysis was performed this semester.
