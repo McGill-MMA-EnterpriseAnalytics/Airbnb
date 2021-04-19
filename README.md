@@ -7,13 +7,23 @@ The market of these short-term rentals in cities such as New York is highly comp
 For this project, our goal is build a regression model that can accurately predict the price of the listing, which will:
 1) Help existing hosts adjusts their prices
 2) New hosts decide on a price
-3) Guests budget for their upcoming booking
 
-Additionally, the machine learning algorithms will provide insight into what factors influence the pricing of these rentals. If they are something that can be controlled by the hosts, then they can use the insghts from this analysis to improve those factors and provide better accomodation to guests. For the scope of this project, we will only be looking at properties in New York considering that New York is a highly competitive marketplace for Airbnb. We will also be seeking to answer the following hypotheses:
+Additionally, the machine learning algorithms will provide insight into what factors influence the pricing of these rentals. If they are something that can be controlled by the hosts, then they can use the insights from this analysis to improve those factors and provide better accomodation to guests. For the scope of this project, we will only be looking at properties in New York considering that New York is a highly competitive marketplace for Airbnb. We will also be seeking to answer the following hypotheses by performing Causal ML:
 1) Does the 'Starbucks Effect' affect the price of Airbnb listings?
 2) Does the distance to the nearest metro station affect the price of Airbnb listings?
 
+We used the following techniques for this project: 
+1) Advanced Imputation Techniques
+2) Feature Engineering 
+3) Auto ML 
+4) Semi Supervised learning - for practice purpose
+5) Unsupervised learning: A and autoencoder - for practice purpose
+6) Making a user-interface on Python 
+7) Using Docker to containerize the model 
+
 The dataset that we have used is from: http://insideairbnb.com/get-the-data.html
+Starbucks Data was obtained from: https://www.starbucks.com/store-locator?place=New%20York%2C%20NY%2010001%2C%20USA
+Metro Data was obtained from https://catalog.data.gov/en/dataset/nyc-transit-subway-entrance-and-exit-data
 
 The team consists of:  
 Eunice Worifah - Data Scientist  
@@ -22,9 +32,7 @@ Pascal Nguyen Tang - Product Manager
 Shivangi Soni - Data Analyst  
 Vivek Saahil - Business Analyst  
 
-
-## Docker
-
-A docker file has been created and deposited in the repository. A requirements file (called requirements.txt) containing all the packages and adequate versions to run the models has been created.
-
-These documents are needed to run the Docker image on which instances of the model will be run.
+In this branch you can find the following files: 
+1) Final Netbook File - This file consists of all the pre-processing, data exploration, AUTO ML, feature engineering, regression models, ML flow and UI interface code.  
+2) Gifs for UI - to show prototype of our UI
+3) Docker File - A docker file has been created and deposited in the repository. A requirements file (called requirements.txt) containing all the packages and adequate versions to run the models has been created. These documents are needed to run the Docker image on which instances of the model will be run.
