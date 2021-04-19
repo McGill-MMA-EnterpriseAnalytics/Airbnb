@@ -22,7 +22,9 @@ We used the following techniques for this project:
 7) Using Docker to containerize the model 
 
 The dataset that we have used is from: http://insideairbnb.com/get-the-data.html
+
 Starbucks Data was obtained from: https://www.starbucks.com/store-locator?place=New%20York%2C%20NY%2010001%2C%20USA
+
 Metro Data was obtained from https://catalog.data.gov/en/dataset/nyc-transit-subway-entrance-and-exit-data
 
 The team consists of:  
