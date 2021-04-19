@@ -19,7 +19,7 @@ We used the following techniques for this project:
 4) Auto ML 
 5) Used ML flow (on Databricks) for hyper parameter tuning. 
 6) Semi Supervised learning - for practice purpose (Not in final notebook file as it wasn't used in the analysis)
-7) Unsupervised learning: A and autoencoder - for practice purpose
+7) Unsupervised learning: PCA and autoencoder - for practice purpose
 8) Making a user-interface on Python 
 9) Using Docker to containerize the model 
 10) Use of Gitflow functions - pull requests, merging branches etc
