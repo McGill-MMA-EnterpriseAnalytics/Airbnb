@@ -16,11 +16,12 @@ We used the following techniques for this project:
 1) Advanced Imputation Techniques
 2) Feature Engineering 
 3) Auto ML 
-4) Semi Supervised learning - for practice purpose (Not in final notebook file as it wasn't used in the analysis)
-5) Unsupervised learning: A and autoencoder - for practice purpose
-6) Making a user-interface on Python 
-7) Using Docker to containerize the model 
-8) Use of Gitflow functions - pull requests, merging branches etc
+4) Used ML flow (on Databricks) for hyper parameter tuning. 
+5) Semi Supervised learning - for practice purpose (Not in final notebook file as it wasn't used in the analysis)
+6) Unsupervised learning: A and autoencoder - for practice purpose
+7) Making a user-interface on Python 
+8) Using Docker to containerize the model 
+9) Use of Gitflow functions - pull requests, merging branches etc
 
 The Airbnb dataset that we have used is from: http://insideairbnb.com/get-the-data.html
 
