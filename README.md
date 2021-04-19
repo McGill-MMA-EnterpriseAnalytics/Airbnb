@@ -6,7 +6,7 @@ The market of these short-term rentals in cities such as New York is highly comp
 
 For this project, our goal is build a regression model that can accurately predict the price of the listing, which will:
 1) Help existing hosts adjusts their prices
-2) New hosts decide on a price
+2) New hosts to decide on a price
 
 Additionally, the machine learning algorithms will provide insight into what factors influence the pricing of these rentals. If they are something that can be controlled by the hosts, then they can use the insights from this analysis to improve those factors and provide better accomodation to guests. For the scope of this project, we will only be looking at properties in New York considering that New York is a highly competitive marketplace for Airbnb. We will also be seeking to answer the following hypotheses by performing Causal ML:
 1) Does the 'Starbucks Effect' affect the price of Airbnb listings?
@@ -15,12 +15,14 @@ Additionally, the machine learning algorithms will provide insight into what fac
 We used the following techniques for this project: 
 1) Advanced Imputation Techniques
 2) Feature Engineering 
-3) Auto ML 
-4) Semi Supervised learning - for practice purpose
-5) Unsupervised learning: A and autoencoder - for practice purpose
-6) Making a user-interface on Python 
-7) Using Docker to containerize the model 
-8) Use of Gitflow functions - pull requests, merging branches etc
+3) Causal ML to test hypothesis 
+4) Auto ML 
+5) Used ML flow (on Databricks) for hyper parameter tuning. 
+6) Semi Supervised learning - for practice purpose (Not in final notebook file as it wasn't used in the analysis)
+7) Unsupervised learning: A and autoencoder - for practice purpose
+8) Making a user-interface on Python 
+9) Using Docker to containerize the model 
+10) Use of Gitflow functions - pull requests, merging branches etc
 
 The Airbnb dataset that we have used is from: http://insideairbnb.com/get-the-data.html
 
@@ -36,6 +38,10 @@ Shivangi Soni - Data Analyst
 Vivek Saahil - Business Analyst  
 
 In this branch you can find the following files: 
-1) Final Netbook File - This file consists of all the pre-processing, data exploration, AUTO ML, feature engineering, regression models, ML flow and UI interface code.  
+1) Final Notebook File - This file consists of all the pre-processing, data exploration, AUTO ML, feature engineering, regression models, ML flow and UI interface code.  
 2) Gifs for UI - to show prototype of our UI
 3) Docker File - A docker file has been created and deposited in the repository. A requirements file (called requirements.txt) containing all the packages and adequate versions to run the models has been created. These documents are needed to run the Docker image on which instances of the model will be run.
+4) Databricks file for ML flow 
+5) Causal ML file for testing different hypothesis
+
+**This project was not in continuation to project from Enterprise 1 course as we decided to go with a new dataset. Hence, all the analysis was performed this semester.
