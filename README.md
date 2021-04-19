@@ -20,8 +20,9 @@ We used the following techniques for this project:
 5) Unsupervised learning: A and autoencoder - for practice purpose
 6) Making a user-interface on Python 
 7) Using Docker to containerize the model 
+8) Use of Gitflow functions - pull requests, merging branches etc
 
-The dataset that we have used is from: http://insideairbnb.com/get-the-data.html
+The Airbnb dataset that we have used is from: http://insideairbnb.com/get-the-data.html
 
 Starbucks Data was obtained from: https://www.starbucks.com/store-locator?place=New%20York%2C%20NY%2010001%2C%20USA
 
