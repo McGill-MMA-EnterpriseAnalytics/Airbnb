@@ -16,7 +16,7 @@ We used the following techniques for this project:
 1) Advanced Imputation Techniques
 2) Feature Engineering 
 3) Auto ML 
-4) Semi Supervised learning - for practice purpose
+4) Semi Supervised learning - for practice purpose (Not in final notebook file as it wasn't used in the analysis)
 5) Unsupervised learning: A and autoencoder - for practice purpose
 6) Making a user-interface on Python 
 7) Using Docker to containerize the model 
