@@ -6,7 +6,7 @@ The market of these short-term rentals in cities such as New York is highly comp
 
 For this project, our goal is build a regression model that can accurately predict the price of the listing, which will:
 1) Help existing hosts adjusts their prices
-2) New hosts decide on a price
+2) New hosts to decide on a price
 
 Additionally, the machine learning algorithms will provide insight into what factors influence the pricing of these rentals. If they are something that can be controlled by the hosts, then they can use the insights from this analysis to improve those factors and provide better accomodation to guests. For the scope of this project, we will only be looking at properties in New York considering that New York is a highly competitive marketplace for Airbnb. We will also be seeking to answer the following hypotheses by performing Causal ML:
 1) Does the 'Starbucks Effect' affect the price of Airbnb listings?
@@ -15,13 +15,14 @@ Additionally, the machine learning algorithms will provide insight into what fac
 We used the following techniques for this project: 
 1) Advanced Imputation Techniques
 2) Feature Engineering 
-3) Auto ML 
-4) Used ML flow (on Databricks) for hyper parameter tuning. 
-5) Semi Supervised learning - for practice purpose (Not in final notebook file as it wasn't used in the analysis)
-6) Unsupervised learning: A and autoencoder - for practice purpose
-7) Making a user-interface on Python 
-8) Using Docker to containerize the model 
-9) Use of Gitflow functions - pull requests, merging branches etc
+3) Causal ML to test hypothesis 
+4) Auto ML 
+5) Used ML flow (on Databricks) for hyper parameter tuning. 
+6) Semi Supervised learning - for practice purpose (Not in final notebook file as it wasn't used in the analysis)
+7) Unsupervised learning: A and autoencoder - for practice purpose
+8) Making a user-interface on Python 
+9) Using Docker to containerize the model 
+10) Use of Gitflow functions - pull requests, merging branches etc
 
 The Airbnb dataset that we have used is from: http://insideairbnb.com/get-the-data.html
 
